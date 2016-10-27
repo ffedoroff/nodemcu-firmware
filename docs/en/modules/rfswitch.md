@@ -48,5 +48,5 @@ Transmit value ising radio module.
 -- use pin #7 (GPIO13)
 -- value to send is 560777
 -- value length is 24 bits (3 bytes)
-rcswitch.send(1, 300, 5, 7, 560777, 24)
+rfswitch.send(1, 300, 5, 7, 560777, 24)
 ```
