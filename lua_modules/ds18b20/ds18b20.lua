@@ -111,7 +111,7 @@ function readNumber(addr, unit)
         if(unit == nil or unit == 'C') then
           -- do nothing
         elseif(unit == 'F') then
-          t = t * 1.8 + 320000
+          t = t * 18 / 10 + 320000
         elseif(unit == 'K') then
           t = t + 2731500
         else
